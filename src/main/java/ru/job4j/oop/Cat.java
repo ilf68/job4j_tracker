@@ -20,13 +20,13 @@ public class Cat {
 
     public static void main(String[] args) {
         Cat gav = new Cat();
-        gav.eat("kotleta");
-        gav.name = "Гав-гав";
+        gav.eat("Котлета");
+        gav.giveNick("Гав-гав");
         gav.show();
 
         Cat black = new Cat();
-        black.eat("fish");
-        black.name = "Черныш";
+        black.eat("Рыба");
+        black.giveNick("Черныш");
         black.show();
     }
 }
