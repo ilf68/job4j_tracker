@@ -9,14 +9,14 @@ public class Error {
         this.status = status;
         this.message = message;
     }
+    public Error(){
+
+    }
     public void printInfo() {
         System.out.println("Опа-на! ошибочка вроде?");
         System.out.println("Наличие ошибки: " + active);
         System.out.println("Статус: " + status);
         System.out.println("Сообщение: " + message);
-    }
-    public Error(){
-
     }
 
     public static void main(String[] args) {
