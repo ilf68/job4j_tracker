@@ -19,4 +19,11 @@ public class Item {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void noParamId() { }
+
+    public void setIdAndName(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
