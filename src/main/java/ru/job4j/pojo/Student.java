@@ -19,16 +19,16 @@ public class Student {
         return groupNumber;
     }
 
+    public Date getAdmissionDate() {
+        return admissionDate;
+    }
+
     public void setGroupNumber(String groupNumber) {
         this.groupNumber = groupNumber;
     }
 
     public void setName(String name) {
         this.name = name;    }
-
-    public Object getAdmissionDate() {
-        return admissionDate;
-    }
 
     public void setAdmissionDate(Date admissionDate) {
         this.admissionDate = admissionDate;
