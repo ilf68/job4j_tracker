@@ -8,6 +8,6 @@ public class StartUI {
 
     public static void main(String[] args) {
         Item item1 = new Item();
-        System.out.println(item1.created.format(FORMATTER));
+        System.out.println(item1.getCreated().format(FORMATTER));
     }
 }
