@@ -8,6 +8,8 @@ public class StartUI {
 
     public static void main(String[] args) {
         Item item1 = new Item();
-        System.out.println(item1.getCreated().format(FORMATTER));
+        item1.setId(0);
+        item1.setName("ilf");
+        System.out.println(item1);
     }
 }
