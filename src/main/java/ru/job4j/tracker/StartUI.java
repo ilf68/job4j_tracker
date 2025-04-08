@@ -3,8 +3,6 @@ package ru.job4j.tracker;
 import java.util.Scanner;
 
 public class StartUI {
-
-    @SuppressWarnings("checkstyle:EmptyBlock")
     public void init(Scanner scanner, Tracker tracker) {
         boolean run = true;
         while (run) {
