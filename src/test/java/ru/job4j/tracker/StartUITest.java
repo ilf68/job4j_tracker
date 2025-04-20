@@ -148,7 +148,7 @@ class StartUITest {
         Item one = tracker.add(new Item("test"));
         Item two = tracker.add(new Item("test1"));
         Input input = new MockInput(
-                new String[] {"0", String.valueOf(one.getName()), "0", String.valueOf(two.getName()), "1"}
+                new String[] {"0", one.getName(), "0", two.getName(), "1"}
         );
         UserAction[] actions = new UserAction[]{
                 new FindByNameAction(output),
